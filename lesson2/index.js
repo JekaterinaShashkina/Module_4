@@ -51,8 +51,8 @@ const TechnicsGoods = function (price, name, discount, type) {
   this.type = type;
 };
 const good = new Goods(300, 'Phone', 0);
-const apple = new FoodGoods(10, 'Red Grown', 2, 30);
-const orange = new FoodGoods(15, 'Red Grown', 2, 55);
+const apple = new FoodGoods(10, 'apple', 2, 30);
+const orange = new FoodGoods(15, 'orange', 2, 55);
 
 const jeans = new СlothingGoods(100, 'Levis', 5, 'cotton');
 const cart = new Cart([]);
