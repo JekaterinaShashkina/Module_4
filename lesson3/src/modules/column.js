@@ -2,7 +2,7 @@ export class Column {
   #car = null;
   constructor(type, speed) {
     this.type = type;
-    this.speed - speed;
+    this.speed = speed;
   }
   set car(car) {
     this.#car = car;

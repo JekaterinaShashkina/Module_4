@@ -34,18 +34,21 @@ const getTestCar = () => {
   return typeBool ? new PassangerCar(...randomCar) : new Truck(...randomCar);
 };
 
-const station = new Station([
-  {
-    type: 'petrol',
-    count: 2,
-    speed: 5,
-  },
-  {
-    type: 'diesel',
-    count: 1,
-    spped: 10,
-  },
-]);
+const station = new Station(
+  [
+    {
+      type: 'petrol',
+      count: 3,
+      speed: 5,
+    },
+    {
+      type: 'diesel',
+      count: 2,
+      speed: 20,
+    },
+  ],
+  '.app',
+);
 
 open.addEventListener('click', () => {
   station.init();

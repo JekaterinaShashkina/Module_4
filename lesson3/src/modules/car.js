@@ -14,7 +14,7 @@ export class Car {
     return this;
   }
 
-  needPetrol() {
+  get needPetrol() {
     return this.#maxTank - this.nowTank;
   }
 
@@ -41,7 +41,7 @@ export class Car {
 
 export class PassangerCar extends Car {
   typeCar = 'passanger';
-  constructor(brand, model, maxTank, typeFuel) {
+  constructor(brand, model, maxTank, typeFuel = 'petrol') {
     super(brand, model, maxTank);
     this.typeFuel = typeFuel;
   }
