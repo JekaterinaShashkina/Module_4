@@ -38,6 +38,9 @@ ul {
   list-style-image: url(assets/img/icon-park-outline_petrol.svg);
 }
 
+.gas {
+  list-style-image: url(assets/img/gas-station.svg);
+}
 .passanger {
   padding-left: 20px;
   background-image: url(assets/img/clarity_car-solid.svg);
